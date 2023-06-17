@@ -1,11 +1,11 @@
-About r-rebus.numbers
-=====================
+About r-rebus.numbers-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rebus.numbers-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=rebus.numbers
 
 Package license: Unlimited
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rebus.numbers-feedstock/blob/main/LICENSE.txt)
 
 Summary: Build regular expressions piece by piece using human readable code. This package contains number-related functionality, and is primarily intended to be used by package developers.
 
