@@ -1,4 +1,4 @@
-{% set version = "0.0-1" %}
+{% set version = "0.0-1.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rebus.numbers_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rebus.numbers/rebus.numbers_{{ version }}.tar.gz
-  sha256: 43da0fcf06576ef146cf9d363a087ac74fe918f0394d695822920804fed72f37
+  sha256: 93963c114f68ee7d5c093f074d9e042276389d711cf0ef11f6d57745c321e887
 
 build:
   noarch: generic
-  number: 1006
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
